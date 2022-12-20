@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap');
+
+
+
+
+
+:root{
+    --logocolor: #5C00F0; 
+    --letrascolor: #ffffff;
+    --backgroundcolor: #06010E;
+
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , monospace , sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+
+
+header{
+    background: var(--backgroundcolor);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 20px 30px;
+    position: fixed;
+    z-index: 2;
+}
+
+
+
+
+
+.logo{
+    height: 90%;
+}
+
+
+
+
+
+.navbar
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.navbar{
+    gap: 100px;
+    padding: 0px 50px 0px 0px;
+}
+
+
+
+
+
+.navbar-list{
+    gap: 80px;
+}
+
+
+
+
+
+.navbar-list a{
+    color: var(--letrascolor);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
