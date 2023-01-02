@@ -13,11 +13,9 @@
 
 
 
-
-
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 ; 
+    padding: 0 ;
     box-sizing: border-box;
     font-family: "Poppins" , monospace , sans-serif;
     text-decoration: none;
@@ -26,15 +24,14 @@
 
 
 
-
-
 header{
     background: var(--backgroundcolor);
+    background: linear-gradient(to bottom ,#000000 10%,#06010E 50%,#1C083D);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 100px;
     padding: 20px 30px;
     position: fixed;
     z-index: 2;
@@ -42,13 +39,9 @@ header{
 
 
 
-
-
 .logo{
     height: 90%;
 }
-
-
 
 
 
@@ -61,14 +54,10 @@ header{
 
 
 
-
-
 .navbar{
     gap: 100px;
     padding: 0px 50px 0px 0px;
 }
-
-
 
 
 
@@ -78,13 +67,154 @@ header{
 
 
 
-
-
 .navbar-list a{
     color: var(--letrascolor);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
+
+
+
+.main-bg{
+    background-color: #1C083D;
+}
+
+
+
+#hero {
+    padding: 120px 0px;
+   max-width: 1200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+
+
+.hero-info h1{
+    color: #ffffff;
+    font-size: 40px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800px;
+    padding: 0px 0px 10px 45px;
+}
+
+
+
+.hero-info p{
+    color: #ffffff;
+    font-size: 14px;
+    width: 70%;
+    padding: 0px 0px 20px 45px;
+    
+}
+
+
+
+.buttoms{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+  
+}
+
+
+
+.buttom-contactame{
+    color: #ffffff;
+    background-color: blueviolet;
+    width: 120px;
+    padding: 8px 8px;
+    border-radius: 150px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+.buttom-sabermas{
+    color: #ffffff;
+    background-color: blueviolet;
+    width: 120px;
+    padding: 8px 8px;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+.hero-info a{
+    color: #ffffff;
+
+}
+
+
+
+.hero-img{
+ width: 35%;
+}
+
+
+
+.wpp{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    bottom: 50px;
+    left: 50px;
+}
+
+
+
+#mi-info{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 17px;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+#mi-info h2{
+    color: #ffffff;
+    padding: 0px 0px 30px 0px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+
+#mi-info p{
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
