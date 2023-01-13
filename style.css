@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap');
 
-
+/* Perdon , no llegue a hacerlo responsive ni agregarle muchos detalles , se me complico y termine a ultima hora */
 
 
 :root{
@@ -401,8 +401,6 @@ html{
     width: 3rem;
 }
 
-.footer-mail{
-}
 
 .linea {
     border-top: 1px solid #ff00c8;
