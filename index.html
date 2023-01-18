@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E2</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="animaciones.css">
 </head>
 <body>
 
     <header>
         <img src="img/logosm.png" alt="logo de SM" class="logo">
         <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./img/toogle.png" alt="" class="menu-icon">
+            </label>
+            <input type="checkbox"  id="menu-toggle">
             <ul class="navbar-list">
-                <li><a href="#" class="inicio">Inicio</a></li>
-                <li><a href="#" class="Portafolio">Portafolio</a></li>
-                <li><a href="#" class="Sobre-mi">Sobre mí</a></li>
-                <li><a href="#" class="Contacto">Contacto</a></li>
+                <li><a href="#hero" class="inicio">Inicio</a></li>
+                <li><a href="#mi-info" class="Portafolio">Sobre mí</a></li>
+                <li><a href="#ventajas" class="Sobre-mi">Ventajas</a></li>
+                <li><a href="#contacto" class="Contacto">Contacto</a></li>
             </ul>
+            <div class="overlay"></div>
         </nav>
     </header>
 
@@ -58,7 +65,7 @@
         <div class="linea"></div>
         <!-- Ventajas! -->
 
-        <section class="ventajas">
+        <section id="ventajas">
             <h2>¡Ventajas al contratarme!</h2>
             <p>Veamos a continuación el porque deberia contratarme</p>
             <div class="card-container">
@@ -85,30 +92,30 @@
         <div class="linea"></div>
         <!-- Formularios -->
 
-        <section class="contacto">
+        <section id="contacto">
             <div class="form-container">
                 <form class="formulario">
                     <h2>Contactame</h2><br>
 
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" placeholder="Ingrese su nombre"><br><br>
+                    <input class="input-color" type="text" id="nombre" placeholder="Ingrese su nombre"><br><br>
 
                     <label for="apellido">Apellido:</label>
-                    <input type="text" id="apellido" placeholder="Ingrese su apellido"><br><br>
+                    <input class="input-color" type="text" id="apellido" placeholder="Ingrese su apellido"><br><br>
 
                     <label for="empresa">Empresa:</label>
-                    <input type="text" id="empresa" placeholder="Nombre de la empresa"><br><br>
+                    <input class="input-color" type="text" id="empresa" placeholder="Nombre de la empresa"><br><br>
 
                     <label for="mail">Mail de contacto</label>
-                    <input type="text" id="mail" placeholder="Ingrese mail"><br><br>
+                    <input class="input-color" type="text" id="mail" placeholder="Ingrese mail"><br><br>
 
                     <label for="puntuacion">¿Cuanto le gusto mi trabajo del 1 al 10?</label>
-                    <input type="number" min="1" max="10" id="puntuacion"><br>
+                    <input class="input-color" type="number" min="1" max="10" id="puntuacion"><br>
 
                     <label for="feedback">Dejame un comentario para mejorar!</label>
-                    <textarea name="feedback" id="feedback" cols="3" rows="5"></textarea><br>
+                    <textarea class="input-color" name="feedback" id="feedback" cols="3" rows="5"></textarea><br>
 
-                    <input type="button" value="Enviar" class="submit">
+                    <input type="button" value="Enviar" class="submit" href="#">
                 </form>
             </div>
             

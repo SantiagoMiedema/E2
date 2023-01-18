@@ -77,14 +77,14 @@ html{
 
 .main-bg{
     background-color: #1C083D;
-    
+
 
 }
 
 
 
 #hero {
-    padding: 120px 0px;
+    padding: 120px 0px 60px 0;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -107,7 +107,6 @@ html{
     color: #ffffff;
     font-size: 40px;
     width: 80%;
-    min-width: 500px;
     font-weight: 800px;
     padding: 0px 0px 10px 45px;
 }
@@ -126,33 +125,39 @@ html{
 
 .buttoms{
     display: flex;
-    width: 70%;
-    justify-content: space-around;
+    width: 100%;
+    padding-right: 12rem;
+    justify-content: space-evenly;
+    gap: 15px;
   
 }
 
 
 
 .buttom-contactame{
+    display: flex;
+    align-items: center;
     color: #ffffff;
     background-color: #8a2be2;
-    width: 120px;
+    width: 110px;
     padding: 8px 8px;
     border-radius: 150px;
     font-size: 14px;
-    text-align: center;
+    
 }
 
 
 
 .buttom-sabermas{
+    display: flex;
+    align-items: center;
     color: #ffffff;
     background-color: blueviolet;
-    width: 120px;
+    width: 95px;
     padding: 8px 8px;
     border-radius: 15px;
     font-size: 14px;
-    text-align: center;
+    
 }
 
 
@@ -212,11 +217,11 @@ html{
 
 /* Ventajas */
 
-.ventajas{
-    
+#ventajas{
+    padding: 0 20px 0 20px;
 }
 
-.ventajas h2{
+#ventajas h2{
     padding-top: 7rem;
     font-size: 30px;
     color: #ffffff;
@@ -226,7 +231,7 @@ html{
 }
 
 
-.ventajas p{
+#ventajas p{
     font-size: 17px;
     color: #ffffff;
     display: flex;
@@ -243,7 +248,7 @@ html{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 
 }
 
@@ -256,7 +261,8 @@ html{
     width: 20rem;
     border: 5px solid #ff00c8 ;
     border-radius: 3rem;
-    gap: 0.9rem;
+    gap: 1rem;
+    height: 30rem;
 }
 
 
@@ -286,10 +292,10 @@ html{
 
 /* FORMULARIOS */
 
-.contacto{
+#contacto{
     display: flex;
     justify-content: center;
-    gap: 10rem;
+    gap: 7rem;
     padding-left: 7rem ;
     
 }
@@ -318,9 +324,13 @@ html{
     border: #ff00c8 3px solid;
     border-radius: 0.5rem;
     width: 20rem;
-    padding: 0.5% 1%;
+    
 }
 
+.submit{
+    font-weight: 600;
+
+}
 
 .formulario textarea{
     border: #ff00c8 3px solid;
@@ -408,3 +418,13 @@ html{
     padding: 0;
     margin: 3rem auto 3rem auto;
   }
+
+ 
+
+ /* Oculto el menu hamburguesa */
+
+ .menu-label,
+ #menu-toggle {
+    display: none;
+ }
+
